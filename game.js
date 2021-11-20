@@ -5,7 +5,7 @@ const $lives=document.getElementById("lives");
 
 var guessNumber=Math.floor(Math.random()*100);
 var message;
-var lives=5;
+var lives=10;
 
 // Game function
 $submitButton.onclick=()=>{
