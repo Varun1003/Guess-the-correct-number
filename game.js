@@ -9,7 +9,7 @@ var lives=10;
 
 // Game function
 $submitButton.onclick=()=>{
-let userInput=document.getElementById("number-input").nodeValue;
+let userInput=document.getElementById("number-input").value
 lives--;
 if(userInput==guessNumber){
 location.href="./win.html";
